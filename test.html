@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    //Function call
+    //displayGreeting();
+    
+
+    // Function declaration
+    // function displayGreeting() {
+    //console.log("Hello, world!");
+    //}
+    //Function sayGoodBye();
+    //function sayGoodBye() {
+    // console.log("Good bye.");
+    // }
+   
+
+    // Function expression
+    const greeting = () => console.log("Hello , world! anonymous function expression");
+
+
+
+    // Function call
+    greeting();
+
+
+    //Function declaration
+    function sumA(a,b) {
+        //console.log(`Output A: ${a + b}`)
+        return (a + b);
+    }
+
+    // sumA(1,2);
+
+    //Function declaration
+    const sumB = function (a,b) {
+        //console.log(`Output B: ${a + b}`)
+        return (a + b);
+    }
+
+    //sumB(3,4);
+
+    // Arrow function
+    const sumC = (a,b) => {
+       //console.log(`Output B: ${a + b}`)
+       return (a + b);
+    }
+
+    sumC(4,5);
+
+    let answerA = sumA(4,5);
+    let answerB = sumB(14,5);
+    let answerC = sumC(9,3);
+
+    console.log(`Answer A: ${answerA}`);
+    console.log(`Answer B: ${answerB}`);
+    console.log(`Answer C: ${answerC}`);
+
+
+   </script>
+
+</body>
+</html>
